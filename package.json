@@ -8,18 +8,23 @@
     "url": "git@github.com:lalitkapoor/react-webpack-es6-sample.git"
   },
   "dependencies": {
+    "6to5": "^2.13.5",
+    "6to5-loader": "^2.0.0",
     "es6-loader": "^0.2.0",
-    "jsx-loader": "^0.12.2",
+    "exports-loader": "^0.6.2",
     "gulp": "^3.8.10",
+    "imports-loader": "^0.6.3",
+    "jsx-loader": "^0.12.2",
     "less": "^2.2.0",
     "less-loader": "^2.0.0",
     "react": "^0.12.2",
     "react-hot-loader": "^1.1.1",
     "webpack": "^1.5.3",
-    "webpack-dev-server": "^1.7.0",
-    "webpack-traceur-loader": "^0.3.0"
+    "webpack-dev-server": "^1.7.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"

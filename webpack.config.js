@@ -22,7 +22,8 @@ module.exports = {
   }
 , module: {
     loaders: [
-    , { test: /\.jsx$/, loaders: ['webpack-traceur?runtime&sourceMaps&experimental', 'react-hot', 'jsx'] }
+    , { test: /\.js$/, exclude:[/node_modules/, /public\/components/], loader: '6to5-loader?experimental&runtime' }
+    , { test: /\.jsx$/, exclude:[/node_modules/, /public\/components/], loaders: ['6to5-loader?experimental&runtime', 'react-hot', 'jsx'] }
     , { test: /\.css$/, loader: 'style-loader!css-loader' }
     ]
   , noParse: /\.min\.js/
@@ -33,6 +34,9 @@ module.exports = {
   }
 , plugins: [
     new webpack.HotModuleReplacementPlugin()
+  , new webpack.ProvidePlugin({
+      to5Runtime: "imports?global=>{}!exports?global.to5Runtime!6to5/runtime"
+    })
   , new webpack.ProvidePlugin({
       jQuery: 'jquery'
     , $: 'jquery'

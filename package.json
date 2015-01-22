@@ -1,0 +1,29 @@
+{
+  "name": "react-webpack-es6-sample",
+  "version": "0.1.0",
+  "description": "a sample app in es6 making use of webpack, react, bower, gulp",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lalitkapoor/react-webpack-es6-sample.git"
+  },
+  "dependencies": {
+    "es6-loader": "^0.2.0",
+    "jsx-loader": "^0.12.2",
+    "gulp": "^3.8.10",
+    "less": "^2.2.0",
+    "less-loader": "^2.0.0",
+    "react": "^0.12.2",
+    "react-hot-loader": "^1.1.1",
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.7.0",
+    "webpack-traceur-loader": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Lalit Kapoor <lalitkapoor@gmail.com>",
+  "license": "MIT"
+}

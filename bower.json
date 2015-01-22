@@ -1,0 +1,23 @@
+{
+  "name": "react-webpac-es6-sample",
+  "version": "0.1.0",
+  "homepage": "https://github.com/lalitkapoor/react-webpack-es6-sample",
+  "authors": [
+    "Lalit Kapoor <lalitkapoor@gmail.com>"
+  ],
+  "description": "a sample app in es6 making use of webpack, react, bower, gulp",
+  "keywords": [
+  ],
+  "license": "PRIVATE",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

@@ -22,15 +22,15 @@ module.exports = {
   }
 , module: {
     loaders: [
-    , { test: /\.js$/, exclude:[/node_modules/, /public\/components/], loader: '6to5-loader?experimental&runtime' }
-    , { test: /\.jsx$/, exclude:[/node_modules/, /public\/components/], loaders: ['6to5-loader?experimental&runtime', 'react-hot', 'jsx'] }
-    , { test: /\.css$/, loader: 'style-loader!css-loader' }
+      {test: /\.js$/, exclude:[/node_modules/, /public\/components/], loader: '6to5-loader?experimental&runtime'}
+    , {test: /\.jsx$/, exclude:[/node_modules/, /public\/components/], loaders: ['6to5-loader?experimental&runtime', 'react-hot', 'jsx']}
+    , {test: /\.css$/, loader: 'style-loader!css-loader'}
     ]
   , noParse: /\.min\.js/
   }
 , resolve: {
-    modulesDirectories: ['public/components', 'node_modules'],
-    extensions: ['', '.js', '.jsx', '.json']
+    modulesDirectories: ['public/components', 'node_modules']
+  , extensions: ['', '.js', '.jsx', '.json']
   }
 , plugins: [
     new webpack.HotModuleReplacementPlugin()

@@ -1,11 +1,11 @@
 {
-  "name": "react-webpack-es6-sample",
+  "name": "webpack-es6-react-boilerplate",
   "version": "0.1.0",
   "description": "a sample app in es6 making use of webpack, react, bower, gulp",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:lalitkapoor/react-webpack-es6-sample.git"
+    "url": "git@github.com:lalitkapoor/webpack-es6-react-boilerplate.git"
   },
   "dependencies": {
     "6to5": "^2.13.5",

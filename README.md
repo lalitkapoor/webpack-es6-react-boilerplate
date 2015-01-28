@@ -3,6 +3,13 @@ webpack-es6-react-boilerplate
 A boilerplate app in es6 making use of webpack, react, bower, gulp.
 Supports webpack's hot reload for react.
 
+To run:
+
+```bash
+npm install
+npm start
+```
+
 To run with docker:
 
 ```bash

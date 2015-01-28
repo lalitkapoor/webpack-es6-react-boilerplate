@@ -1,6 +1,6 @@
 webpack-es6-react-boilerplate
 =========
-A sample app in es6 making use of webpack, react, bower, gulp.
+A boilerplate app in es6 making use of webpack, react, bower, gulp.
 Supports webpack's hot reload for react.
 
 To run with docker:

@@ -22,8 +22,8 @@ module.exports = {
   }
 , module: {
     loaders: [
-      {test: /\.js$/, exclude:[/node_modules/, /public\/components/], loader: '6to5-loader?experimental&runtime'}
-    , {test: /\.jsx$/, exclude:[/node_modules/, /public\/components/], loaders: ['6to5-loader?experimental&runtime', 'react-hot', 'jsx']}
+      {test: /\.js$/, exclude:[/node_modules/, /public\/components/], loader: '6to5-loader?experimental&optional=selfContained'}
+    , {test: /\.jsx$/, exclude:[/node_modules/, /public\/components/], loaders: ['6to5-loader?experimental&optional=selfContained', 'react-hot', 'jsx']}
     , {test: /\.css$/, loader: 'style-loader!css-loader'}
     ]
   , noParse: /\.min\.js/

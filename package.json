@@ -8,21 +8,23 @@
     "url": "git@github.com:lalitkapoor/webpack-es6-react-boilerplate.git"
   },
   "dependencies": {
-    "6to5": "^3.0.5",
-    "6to5-loader": "^3.0.0",
-    "6to5-runtime": "^3.0.5",
-    "es6-loader": "^0.2.0",
-    "exports-loader": "^0.6.2",
-    "imports-loader": "^0.6.3",
-    "jsx-loader": "^0.12.2",
-    "less": "^2.2.0",
-    "less-loader": "^2.0.0",
-    "react": "^0.12.2",
-    "react-hot-loader": "^1.1.1",
-    "webpack": "^1.5.3",
-    "webpack-dev-server": "^1.7.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-core": "5.2.9",
+    "babel-loader": "5.0.0",
+    "babel-runtime": "5.2.9",
+    "exports-loader": "0.6.2",
+    "imports-loader": "0.6.3",
+    "jquery": "2.1.4",
+    "jsx-loader": "0.13.2",
+    "less": "2.2.0",
+    "less-loader": "2.0.0",
+    "react": "0.13.2",
+    "react-hot-loader": "1.2.6",
+    "react-router": "0.13.3",
+    "webpack": "1.8.11",
+    "webpack-dev-server": "1.8.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
